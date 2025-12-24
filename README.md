@@ -1,8 +1,8 @@
-# 🚀 Intervention Engine
+# Intervention Engine
 
 The Intervention System is a comprehensive solution designed to monitor and improve student engagement and performance through real-time interventions. This full-stack application combines a React Native mobile client with a robust Express.js backend, powered by PostgreSQL for data persistence and Socket.IO for real-time updates.
 
-## 🌟 Key Features
+## Key Features
 
 - **Real-time Monitoring**: Track student activities and performance metrics in real-time
 - **Automated Interventions**: System-triggered interventions based on predefined rules
@@ -10,7 +10,7 @@ The Intervention System is a comprehensive solution designed to monitor and impr
 - **Progress Tracking**: Monitor student performance and intervention effectiveness
 - **Cross-platform**: Mobile-first design with web support via Expo
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 .
@@ -24,7 +24,7 @@ The Intervention System is a comprehensive solution designed to monitor and impr
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v14+)
@@ -72,7 +72,7 @@ The Intervention System is a comprehensive solution designed to monitor and impr
 
 4. Use the Expo Go app on your mobile device or an emulator to run the application.
 
-## 🏗️ Project Structure
+## Project Structure
 
 ### Client (React Native)
 - `App.js` - Main application component with all the core logic
@@ -84,7 +84,7 @@ The Intervention System is a comprehensive solution designed to monitor and impr
 - `index.js` - Main server file with all API endpoints and WebSocket setup
 - `package.json` - Lists all server-side dependencies and scripts
 
-## 🛠️ Available Scripts
+## Available Scripts
 
 ### Client
 - `npm start` - Start Expo development server
@@ -96,7 +96,7 @@ The Intervention System is a comprehensive solution designed to monitor and impr
 - `npm start` - Start production server
 - `npm run dev` - Start development server with hot-reload
 
-## 🛡️ Fail-Safe Mechanism
+## Fail-Safe Mechanism
 
 To ensure system reliability and prevent intervention lockouts, we've implemented a multi-layered fail-safe mechanism:
 
@@ -117,7 +117,7 @@ To ensure system reliability and prevent intervention lockouts, we've implemente
    - System continuously monitors intervention status and lock states
    - Automated alerts for any intervention exceeding expected duration thresholds
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 The server uses `dotenv` for environment configuration. Here are the available environment variables:
 
@@ -135,7 +135,7 @@ DATABASE_URL=postgres://user:password@localhost:5432/alcovia_db
 NODE_ENV=development
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Client
 - `expo`: ^54.0.25
@@ -151,7 +151,7 @@ NODE_ENV=development
 - `cors`: ^2.8.5
 - `dotenv`: ^16.3.1
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Development Mode
 
@@ -181,14 +181,14 @@ NODE_ENV=development
    npm start
    ```
 
-## 🛠️ Development Tips
+## Development Tips
 
 - Use `npm run dev` in the server directory for automatic reloading during development
 - For real-time debugging, check the browser's developer tools or React Native Debugger
 - The client is configured to connect to `http://localhost:4000` by default. Update the `API_URL` in `App.js` if needed
 - Use the Expo Go app for testing on physical devices (scan the QR code from the terminal)
 
-## 📚 API Documentation
+## API Documentation
 
 ### Student Endpoints
 
@@ -202,7 +202,7 @@ NODE_ENV=development
 - `register` - Register a student's WebSocket connection
 - `status-update` - Receive real-time updates about intervention status changes
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
